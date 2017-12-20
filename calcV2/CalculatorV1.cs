@@ -43,7 +43,6 @@ namespace calcV2
             str.Text = str.Text + btn.Text;
             op_pressed = false;
             enter_clicked = false;
-            //result = double.Parse(calcStr.Text);
         }
         
         private void backspaceBtn_Click(object sender, EventArgs e)
@@ -62,7 +61,6 @@ namespace calcV2
             {
                 str.Text = str.Text.Remove(str.Text.Length - 1);
                 calcStr.Text = calcStr.Text.Remove(calcStr.Text.Length - 1);
-                //result = double.Parse(calcStr.Text);
             }
         }
 
